@@ -1,4 +1,4 @@
-vogals = ['a', 'e', 'i', 'o', 'u']
+vogals = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
 
 def request(x):
   for i in vogals:
