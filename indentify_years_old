@@ -1,4 +1,5 @@
-current_year = 2026
+from datetime import datetime
+current_year = datetime.now().year
 
 def calculate(current, user):
   res = current - user
