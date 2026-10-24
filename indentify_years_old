@@ -1,0 +1,15 @@
+current_year = 2026
+
+def calculate(current, user):
+  res = current - user
+  return function(res)
+
+def function(years):
+  if (years >= 16 | years <= 17):
+    return f"Já pode votar | {years} anos"
+  elif (years >= 18):
+    return f"Já pode tirar habilitação | {years} anos"
+  else:
+    return f"Não pode votar nem tirar habilitação | {years} anos"
+
+print(calculate(current_year, 2010))
